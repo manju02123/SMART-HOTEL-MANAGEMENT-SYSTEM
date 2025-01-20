@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc, #ff007f); /* Gradient background with purple, blue, and pink */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #ffed4a;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            margin-bottom: 40px;
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #ffed4a;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: #fff;
+            text-align: left;
+        }
+
+        a {
+            color: #ffed4a;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: #2575fc;
+        }
+
+        blockquote {
+            font-style: italic;
+            font-size: 1.3em;
+            margin: 30px auto;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-left: 5px solid #ffed4a;
+            border-radius: 8px;
+            color: #ffed4a;
+        }
+
+        /* Course Details Section */
+        .course-details-section {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15); /* Light minimal background */
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-top: 40px;
+            max-width: 800px;
+        }
+
+        .course-details-section h2 {
+            font-size: 2em;
+            color: #6a11cb;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        dl {
+            text-align: left;
+            margin: 0 auto;
+            font-size: 1.1em;
+            color: #ffffff;
+        }
+
+        dt {
+            font-weight: 600;
+            margin-top: 10px;
+            color: #ffed4a;
+        }
+
+        dd {
+            margin-left: 20px;
+            font-weight: 300;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .menu-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 25px;
+            border-radius: 12px;
+            font-weight: 500;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item:hover {
+            background: #ffed4a;
+            color: #333;
+        }
+
+        .content-box {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project-title {
+                font-size: 1.6em;
+            }
+
+            .content-box {
+                font-size: 1em;
+            }
+
+            header h1 {
+                font-size: 2.2em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm Manjunath P B</h1>
+        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+    </header>
+
+    <section>
+        <h2>🛠 Projects</h2>
+        <ul>
+            <li><strong>Project 1</strong>: SMART HOTEL MANAGEMENT SYSTEM</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🚀 Skills</h2>
+        <ul>
+            <li>C++, Python, C</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🌐 Find Me Online</h2>
+        <ul>
+            <li><a href="https://github.com/your-github-MP" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/Manjunath P B" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
+
+    <div class="project-section">
+        <div class="project-title">SMART HOTEL MANAGEMENT SYSTEM</div>
+        <div class="menu">
+            <div class="menu-item" onclick="showContent('air')">efficient hotel listing and retrieval</div>
+            <div class="menu-item" onclick="showContent('soil')">optimal search and filter machanisms</div>
+            <div class="menu-item" onclick="showContent('land')">dyanmic data organization</div>
+            <div class="menu-item" onclick="showContent('water')">user-friendly and scalable solution</div>
+            <div class="menu-item" onclick="showContent('sewage')">Sewage Pollution</div>
+        </div>
+        <div id="contentBox" class="content-box">Click on a pollution type to see details.</div>
+    </div>
+
+    <div class="course-details-section">
+        <h2>📜 Course Details</h2>
+        <dl>
+            <dt>Course Name</dt>
+            <dd>Algorithmic Problem Solving</dd>
+            <dt>Course Code</dt>
+            <dd>24ECSC205</dd>
+            <dt>Name</dt>
+            <dd>Hemantha Kaval K T</dd>
+            <dt>SRN</dt>
+            <dd>02FE23BCS091</dd>
+            <dt>Course Instructor</dt>
+            <dd>Prof. Vaishali Parab</dd>
+            <dt>University</dt>
+            <dd>KLE Technological University Belgaum Campus</dd>
+            <dt>Portfolio Topic/Domain</dt>
+            <dd>Google</dd>
+        </dl>
+    </div>
+
+    <script>
+        function showContent(type) {
+            const contentBox = document.getElementById('contentBox');
+            let content = '';
+
+            switch (type) {
+                case 'air':
+                    content = `Air Pollution Monitoring:
+- Algorithms Used: Sensor data processing using Kalman Filters for noise reduction.
+- Clustering algorithms like K-Means for hotspot identification.
+- Threshold-based alert systems using real-time air
